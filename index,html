@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        /* Header section */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        /* Features section */
+        .features {
+            background-color: #fff;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        /* Testimonials section */
+        .testimonials {
+            background-color: #f9f9f9;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        /* Call-to-action section */
+        .cta {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Awesome Product</h1>
+        <p>Your solution for all your needs!</p>
+    </header>
+
+    <div class="features">
+        <h2>Features</h2>
+        <p>Discover what makes our product special.</p>
+        <!-- Add feature icons and descriptions here -->
+    </div>
+
+    <div class="testimonials">
+        <h2>Testimonials</h2>
+        <p>What our customers say:</p>
+        <!-- Add customer testimonials here -->
+    </div>
+
+    <div class="cta">
+        <h2>Get Started Today</h2>
+        <p>Sign up now and experience the difference!</p>
+        <button>Sign Up</button>
+    </div>
+</body>
+</html>
