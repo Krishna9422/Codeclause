@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Tracking App</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+      nav {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+      }
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-gap: 20px;
+      }
+      .gallery img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Fitness Tracking App</h1>
+    </header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Workouts</a>
+      <a href="#">Progress</a>
+      <a href="#">Settings</a>
+    </nav>
+    <div class="container">
+      <h2>Featured Workouts</h2>
+      <div class="gallery">
+        <p>back exercise</p><a href="./back.html">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0866/7664/files/Lower_Back_Exercises.jpg?v=1535039278"
+          alt="back Workout" 
+        /></a>
+        <p>chest exercise</p><a  href="./cest.html">
+        <img
+          src="https://cdn3.iconfinder.com/data/icons/chest-building-exercises-and-muscle-building/230/chest-building-exercises-018-512.png"
+          alt="chest Workout"
+        /></a>
+        <p>leg exercise</p><a href="./leg.html">
+        <img
+          src="data:image/png;base64,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"
+          alt="leg Workout" 
+        /></a>
+        <p>arm exercise</p><a href="./arm.html">
+
+        <img
+          src="https://media.istockphoto.com/id/655781960/photo/determined-male-working-out-in-gym-lifting-weights.jpg?s=612x612&w=0&k=20&c=k9C0fgbVHYxiQLe8hckSx9OqAEaGVUfiVXYq8JGxhoE="
+          alt="arm workout" 
+        /></a>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2024 Fitness Tracking App</p>
+    </footer>
+  </body>
+</html>
